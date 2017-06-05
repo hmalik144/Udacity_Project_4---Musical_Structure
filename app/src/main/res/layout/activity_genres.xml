@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_genres"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.example.h_mal.myapplication.GenresActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="6dp">
+        <TextView
+            style="@style/PrimaryText"
+            android:text="*Genre 1*" />
+        <TextView
+            style="@style/SecondaryText"
+            android:text="*number of songs in genre*"
+            />
+    </LinearLayout>
+    <View style="@style/Divider"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="6dp">
+        <TextView
+            style="@style/PrimaryText"
+            android:text="*Genre 2*"/>
+        <TextView
+            style="@style/SecondaryText"
+            android:text="*number of songs in genre*"/>
+    </LinearLayout>
+    <View style="@style/Divider"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="6dp">
+        <TextView
+            style="@style/PrimaryText"
+            android:text="*Genre 3*"/>
+        <TextView
+            style="@style/SecondaryText"
+            android:text="*number of songs in genre*"/>
+    </LinearLayout>
+    <View style="@style/Divider"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The songs are categorised by genres. Clicking on a genre will load the songs in that genre"/>
+</LinearLayout>

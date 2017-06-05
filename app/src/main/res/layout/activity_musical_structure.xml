@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_musical_structure"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@android:drawable/bottom_bar"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.example.h_mal.myapplication.MusicalStructure">
+
+    <TextView
+        android:id="@+id/songs"
+        style="@style/Text"
+        android:text="Songs" />
+    <View style="@style/Divider"/>
+    <TextView
+        android:id="@+id/artists"
+        style="@style/Text"
+        android:text="Artists" />
+    <View style="@style/Divider"/>
+    <TextView
+        android:id="@+id/albums"
+        style="@style/Text"
+        android:text="Albums" />
+    <View style="@style/Divider"/>
+    <TextView
+        android:id="@+id/genres"
+        style="@style/Text"
+        android:text="Genres" />
+    <View style="@style/Divider"/>
+    <TextView
+        android:id="@+id/year"
+        style="@style/Text"
+        android:text="Year" />
+    <View style="@style/Divider"/>
+</LinearLayout>

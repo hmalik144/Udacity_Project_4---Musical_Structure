@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_artists"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context="com.example.h_mal.myapplication.ArtistsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="6dp">
+    <TextView
+        style="@style/PrimaryText"
+        android:text="*Artist 1 name*"/>
+        <TextView
+            style="@style/SecondaryText"
+            android:text="*number of songs by artists*"/>
+</LinearLayout>
+    <View style="@style/Divider"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="6dp">
+        <TextView
+            style="@style/PrimaryText"
+            android:text="*Artist 2 name*"/>
+        <TextView
+            style="@style/SecondaryText"
+            android:text="*number of songs by artists*"/>
+    </LinearLayout>
+    <View style="@style/Divider"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="6dp">
+        <TextView
+            style="@style/PrimaryText"
+            android:text="*Artist 3 name*"/>
+        <TextView
+            style="@style/SecondaryText"
+            android:text="*number of songs by artists*"/>
+    </LinearLayout>
+    <View style="@style/Divider"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The songs are categorised by Artist name. Clicking on an artist will load their songs"/>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_songs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.example.h_mal.myapplication.SongsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="6dp">
+    <TextView
+        style="@style/PrimaryText"
+        android:text="*Song 1 name*"/>
+    <TextView
+        style="@style/SecondaryText"
+        android:text="*Artist*"/>
+    <TextView
+        style="@style/TertiaryText"
+        android:text="*Album name*"/>
+    </LinearLayout>
+    <View style="@style/Divider"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="6dp">
+        <TextView
+            style="@style/PrimaryText"
+            android:text="*Song 2 name*"/>
+        <TextView
+            style="@style/SecondaryText"
+            android:text="*Artist*"/>
+        <TextView
+            style="@style/TertiaryText"
+            android:text="*Album name*"/>
+    </LinearLayout>
+    <View style="@style/Divider"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="6dp">
+        <TextView
+            style="@style/PrimaryText"
+            android:text="*Song 3 name*"/>
+        <TextView
+            style="@style/SecondaryText"
+            android:text="*Artist*"/>
+        <TextView
+            style="@style/TertiaryText"
+            android:text="*Album name*"/>
+    </LinearLayout>
+    <View style="@style/Divider"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All songs are displayed in alphabetical order"/>
+</LinearLayout>

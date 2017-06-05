@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_albums"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.example.h_mal.myapplication.AlbumsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="6dp">
+        <TextView
+            style="@style/PrimaryText"
+            android:text="*Album 1 name*"/>
+        <TextView
+            style="@style/SecondaryText"
+            android:text="*Artist*"/>
+        <TextView
+            style="@style/TertiaryText"
+            android:text="*Genre*"/>
+    </LinearLayout>
+    <View style="@style/Divider"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="6dp">
+        <TextView
+            style="@style/PrimaryText"
+            android:text="*Album 2 name*"/>
+        <TextView
+            style="@style/SecondaryText"
+            android:text="*Artist*"/>
+        <TextView
+            style="@style/TertiaryText"
+            android:text="*Genre*"/>
+    </LinearLayout>
+    <View style="@style/Divider"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="6dp">
+        <TextView
+            style="@style/PrimaryText"
+            android:text="*Album 3 name*"/>
+        <TextView
+            style="@style/SecondaryText"
+            android:text="*Artist*"/>
+        <TextView
+            style="@style/TertiaryText"
+            android:text="*Genre*"/>
+    </LinearLayout>
+    <View style="@style/Divider"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The songs are categorised by Album name. Clicking on an album will load the songs in that album"/>
+</LinearLayout>
